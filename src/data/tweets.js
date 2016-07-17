@@ -7,15 +7,21 @@ export const tweets = [
     comments: [
       {
         id: 1,
-        time: new Date() 
+        time: new Date(),
+        content: 'lorem comment',
+        name: 'bob'
       },
       {
         id: 2,
-        time: new Date() 
+        time: new Date(),
+        content: 'lorem comment',
+        name: 'jeseeq'
       },
       {
         id: 3,
-        time: new Date()
+        time: new Date(),
+        content: 'lorem comment',
+        name: 'bar'
       }
     ]
   },
@@ -27,15 +33,9 @@ export const tweets = [
     comments: [
       {
         id: 1,
-        time:  new Date()
-      },
-      {
-        id: 2,
-        time: new Date()
-      },
-      {
-        id: 3,
-        time: new Date()
+        time:  new Date(),
+        content: 'lorem comment',
+        name: 'bob'
       }
     ]
   },
@@ -47,15 +47,9 @@ export const tweets = [
     comments: [
       {
         id: 1,
-        time: new Date() 
-      },
-      {
-        id: 2,
-        time: new Date() 
-      },
-      {
-        id: 3,
-        time: new Date() 
+        time: new Date(),
+        content: 'lorem comment',
+        name: 'bob'
       }
     ]
   }

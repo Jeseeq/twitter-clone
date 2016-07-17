@@ -1,5 +1,5 @@
 
-import {LOAD_TWEETS, ADD_TWEET} from '../actions/tweets'
+import {LOAD_TWEETS, ADD_TWEET, ADD_COMMENT} from '../actions/tweets'
 
 
 
@@ -26,7 +26,8 @@ function comment(state, action) {
       return {
       ...state
     }
-    break;
+    default: 
+      return state
   }
 }
 export default function tweets (state = INITIAL_STATE, action) {

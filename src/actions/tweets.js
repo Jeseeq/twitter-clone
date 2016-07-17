@@ -1,5 +1,6 @@
 export const LOAD_TWEETS = 'LOAD_TWEETS' 
 export const ADD_TWEET = 'ADD_TWEET'
+export const ADD_COMMENT = 'ADD_COMMENT'
 
 export function loadTweets(data) {
   return {
@@ -7,14 +8,14 @@ export function loadTweets(data) {
     payload: data
   }
 }
-export function addTweet(text, user) {
+export function addTweet(user, text) {
   return {
     type: ADD_TWEET,
     payload: text,
     user: user
   }
 }
-export function addComment(text, user) {
+export function addComment(user, text) {
   return {
     type: ADD_COMMENT,
     payload: text,

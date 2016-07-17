@@ -13,7 +13,7 @@ export default function user(state = INITIAL_STATE, action) {
     return {
     ...state,
     user: action.payload,
-    status: 'signinig',
+    status: 'auth',
     error: null
   }
   case LOGIN_FAILURE: 

@@ -1,6 +1,7 @@
 import { connect } from 'react-redux'
 import Login from '../components/Login'
 import {login, loginSuccess, loginFailure, logout} from '../actions/user'
+import {inputChanged} from '../actions/form'
 function mapStateToProps(state) {
   return {
     user: state.user
@@ -18,6 +19,7 @@ function mapDispatchToProps(dispatch) {
     }, 
     logout: () => {
       dispatch(logout())
+      dispatch(inputChanged(''))
     }
 
   }

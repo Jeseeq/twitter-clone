@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
-import Form from './Form';
+import Form from './TweetForm';
 import Tweet from '../components/Tweet';
 
 export class Timeline extends React.Component {
