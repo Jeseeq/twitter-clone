@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react'
 
 const UserCardStat = (props) => {
   return (
@@ -9,7 +9,7 @@ const UserCardStat = (props) => {
     )
 }
 
-export default class Profile extends Component {
+export default class Profile extends React.Component {
 
   render() {
     var number = 0

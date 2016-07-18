@@ -15,10 +15,11 @@ export function addTweet(user, text) {
     user: user
   }
 }
-export function addComment(user, text) {
+export function addComment(user, text, id) {
   return {
     type: ADD_COMMENT,
     payload: text,
-    user: user
+    user,
+    id
   }
 }

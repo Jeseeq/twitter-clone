@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react'
 
-export default class Login extends Component {
+export default class Login extends React.Component {
 
   handleSubmit = (event) => {
-    event.preventDefault();
-    const input = this.refs.username;
-    this.props.login(input.value);
-    input.value = '';
+    event.preventDefault()
+    const input = this.refs.username
+    this.props.login(input.value)
+    input.value = ''
   }
 
   render() {

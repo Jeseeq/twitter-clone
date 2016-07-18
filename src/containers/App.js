@@ -6,6 +6,7 @@ import Profile from '../components/Profile'
 import {tweets} from '../data/tweets'
 import {loadTweets} from '../actions/tweets'
 import Timeline from '../containers/Timeline'
+
 class App extends Component {
 
   componentDidMount() {
@@ -17,7 +18,7 @@ class App extends Component {
       <div>
         <Login />
         <div className="container">
-          {user && <Profile user={user} tweets={tweets} />}
+          {user.user ?  <Profile user={user} tweets={tweets} /> : null}
           <Timeline className="content"/>
         </div>
         <Footer />

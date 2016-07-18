@@ -1,7 +1,7 @@
 {
   "name": "react-twitter",
   "version": "1.0.0",
-  "description": "Test assigment templatemonster",
+  "description": "Test assigment Templatemonster",
   "main": "index.js",
   "scripts": {
     "start": "node devServer.js",
