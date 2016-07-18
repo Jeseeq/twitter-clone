@@ -23,14 +23,14 @@ export default class Form extends React.Component {
     })
   }
   render() {
-    let len = this.state.text.length 
+    let len = this.state.text.length
     let disabled = (len >= 140 || len == 0)
     let {className} = this.props
     return (
       <div className={className || 'tweet-form'} >
         <form onSubmit={this.handleSubmit}>
           <textarea
-            placeholder={this.props.placeholder} 
+            placeholder={this.props.placeholder}
             style={this.props.style}
             value={this.state.text}
             onChange={this.onChange}

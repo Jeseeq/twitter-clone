@@ -1,17 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-/**
- * Import the stylesheet you want used! Here we just reference
- * the main SCSS file we have in the styles directory.
- */
-import './styles/main.scss';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './styles/main.scss'
 
-import { configureStore } from './store/configureStore';
-import  Root  from './containers/Root';
+import { configureStore } from './store/configureStore'
+import  Root  from './Root'
 
-const store = configureStore();
+const store = configureStore()
 
 ReactDOM.render(
   <Root store={store} />,
   document.getElementById('root')
-);
+)

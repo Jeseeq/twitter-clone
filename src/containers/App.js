@@ -39,7 +39,7 @@ function mapDispatchToProps(dispatch) {
     loadTweets: (tweets) => {
       dispatch(loadTweets(tweets))
     }
-   } 
+   }
 }
 
 export default connect(

@@ -15,7 +15,7 @@ function mapDispatchToProps(dispatch, ownProps) {
     handleSubmit: (user, text) => {
       dispatch(addTweet(user, text))
     }
-  } 
+  }
 }
 
 export default connect(

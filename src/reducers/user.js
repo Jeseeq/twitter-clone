@@ -16,7 +16,7 @@ export default function user(state = INITIAL_STATE, action) {
     status: 'auth',
     error: null
   }
-  case LOGIN_FAILURE: 
+  case LOGIN_FAILURE:
     return {
     ...state,
     user: null,

@@ -16,7 +16,7 @@ function mapDispatchToProps(dispatch) {
       } else {
         dispatch(loginFailure('Please Enter Username'))
       }
-    }, 
+    },
     logout: () => {
       dispatch(logout())
     }
