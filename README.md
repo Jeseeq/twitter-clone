@@ -12,3 +12,4 @@ To run this example:
 * run server in dev mode with hot reload
 ```npm run dev```
 
+live aviable at http://178.62.203.212:48178/
