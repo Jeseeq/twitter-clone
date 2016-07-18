@@ -14,7 +14,6 @@ const port = process.env.PORT || 3000;
 
 
 if (isDeveloping) {
-  const compiler = webpack(webpackConfig);
   const middleware = webpackMiddleware(compiler, {
     publicPath: webpackConfig.output.publicPath,
     contentBase: 'src',
